@@ -1,14 +1,18 @@
-# install starship
+# starship
 curl -sS https://starship.rs/install.sh | sh
+cp ./starship.toml ~/.config/starship.toml
 
-## install preset theme with :
-starship preset pastel-powerline -o ~/.config/starship.toml
-
-# install fsh
+# fsh
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting ~/.fsh
 
-# install auto suggestion
+# autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
 
 # install auto complete
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ~/.zsh/zsh-autocomplete
+
+echo "export CONFIGPATH=$PWD" >> ~/.zshrc
+echo "source $PWD/main.sh" >> ~/.zshrc
+
+# bitwarden
+brew install bitwarden
