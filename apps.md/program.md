@@ -33,12 +33,16 @@ https://code.visualstudio.com/
 
 ## cursor
 
+## java 
+
+
 ## Flutter 
 
 # dart
 brew tap dart-lang/dart
 brew trust dart-lang/dart
 brew install dart
+flutter config --jdk-dir "/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/"
 
 # fvm 
 brew install fvm
