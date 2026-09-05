@@ -33,6 +33,9 @@ https://code.visualstudio.com/
 
 ## cursor
 
+## bruno
+https://www.usebruno.com/downloads
+
 ## java 
 
 
