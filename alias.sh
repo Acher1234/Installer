@@ -8,7 +8,7 @@ config_git_key() {
 # Rust
 alias rustrun='rust-script'
 alias rustruntest='rust-script --test'
-
+alias rustdoc='rustup doc --book'
 # python
 alias python="python3"
 
